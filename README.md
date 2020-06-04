@@ -1,5 +1,5 @@
 # forum-server-nodejs-client-react
-Create forum from zero using server side node.js and client side react. In addition using DB - MySQL, socket.io
+Create forum from zero using server side node.js and client side react. In addition using DB - MySQL, socket.io and cookies
 
 Any one that want to create forum from zero and using nodejs for server side and react for client side, its a good beginning for you.
 actully this code is include react-redux metode, socket.io into server side and using DB of MySQL of PHPmyadmin 
