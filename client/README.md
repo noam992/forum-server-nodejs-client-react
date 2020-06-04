@@ -1,3 +1,8 @@
+client-
+1. install "npm i"
+2. using cookies for smarter counting the numbers of likes and views
+3. using redux for sharing state between several components
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
