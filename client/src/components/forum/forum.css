@@ -1,0 +1,127 @@
+.forum {
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.625;
+    font-size: 17px;
+    letter-spacing: 0.015em;
+}
+
+.header-forum{
+    padding: 3px;
+    background-color: gray;
+    border-radius: 5px 5px 0 0;
+}
+
+.forum > div:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+/* Cluster row style*/
+.cluster {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+tr.cluster > div:first-child {
+    margin: auto;
+}
+
+.img-cluster-column{
+    grid-column: span 1;
+}
+
+.img-cluster-column img, .img-user-column img, .img-like-column img{
+    width: 50px;
+}
+
+.img-user-column img{
+    border-radius: 50%;
+}
+
+.subject-column {
+    grid-column: 2 / span 7;
+    text-align: left;
+    padding: 5px;
+}
+
+/* Content and comments style*/
+
+.text-and-comment {
+    background-color: rgb(235, 235, 235);
+    border: 3px solid rgb(163, 162, 162);
+    border-radius: 5px;
+}
+
+.content {
+    background-color: white;
+    border: 0.5px solid rgb(163, 162, 162);
+    border-radius: 5px;
+    margin: 3px;
+    padding: 20px;
+}
+
+.comment-buttons {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-evenly;
+    margin-top: .3125rem;
+    cursor: pointer;
+}
+
+/* --------------------------- */
+
+/* Comment style*/
+.content-comment-text {
+    background-color: white;
+    border: 0.5px solid rgb(163, 162, 162);
+    border-radius: 5px;
+    margin: 3px;
+    padding: 20px;
+
+}
+
+.comments {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.comment-column {
+    grid-column: span 9;
+    text-align: left;
+}
+
+.btn-add-comment-column {
+    display: block;
+}
+
+.btn-add-like-column {
+    display: block;
+}
+
+.add-comment-column {
+    grid-column: span 12;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-evenly;
+    margin-top: .3125rem;
+    cursor: pointer;
+}
+
+.cascade-comment-column {
+    grid-column: 2 / span 8;
+    text-align: left;
+}
+
+
+
+
+

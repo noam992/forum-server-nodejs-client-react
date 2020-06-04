@@ -1,0 +1,17 @@
+.menu > a {
+    color: black;
+    margin: 30px;
+    text-decoration: solid;
+}
+
+.menu > .active {
+    color: blue;
+    font-weight: bold;
+}
+
+.menu {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
