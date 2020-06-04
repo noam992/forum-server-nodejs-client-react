@@ -1,3 +1,0 @@
-forum-server-nodejs-client-react
-
-Create forum from zero using server side node.js and client side react. In addition using DB - MySQL, socket.io
