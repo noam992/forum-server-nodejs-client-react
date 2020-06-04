@@ -1,0 +1,4 @@
+server- 
+1. install "npm i"
+2. please check business-logic and controller folder to modify them your data that relevant to you
+3. into config.json change varibale "database" to your DB table
